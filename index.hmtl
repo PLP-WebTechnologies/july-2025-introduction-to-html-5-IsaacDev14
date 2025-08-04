@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Development Portfolio of Isaac Kubai</title>
+    <meta name="description" content="A portfolio showcasing the projects, skills, and experience of Isaac Kubai, a Kenyan web developer focused on clean, accessible code.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header, footer {
+            background-color: #1e1e1e;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: #00aaff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffffff;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        section, article, aside {
+            background-color: #1e1e1e;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        h1, h2, h3 {
+            color: #ffffff;
+        }
+
+        a {
+            color: #00aaff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 600px) {
+            nav li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            h1 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Isaac Kubai's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a passionate web developer from Nairobi, Kenya, dedicated to building accessible and user-friendly digital experiences. With a strong foundation in semantic HTML, I focus on creating clean, well-structured, and performant web pages that work for everyone.</p>
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <article>
+                <h3>Mobile Banking App Concept</h3>
+                <p>A mobile-first application concept for seamless money transfers, payments, and account management, inspired by the innovative banking solutions in Kenya.</p>
+                <p>View the <a href="#">live demo</a> or the <a href="#">source code</a>.</p>
+            </article>
+            <article>
+                <h3>Online Soko (Marketplace) Platform</h3>
+                <p>This project is a prototype for an online marketplace (Soko) designed to connect local Kenyan vendors with customers, showcasing their products in a clean and accessible interface.</p>
+                <p>View the <a href="#">live demo</a> or the <a href="#">source code</a>.</p>
+            </article>
+        </section>
+        <aside>
+            <h2>Related Resources</h2>
+            <ul>
+                <li><a href="#">Article on HTML5 Semantics</a></li>
+                <li><a href="#">Best Practices for Web Accessibility</a></li>
+            </ul>
+        </aside>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>You can reach out to me via email at <a href="mailto:isaac.kubai@example.co.ke">isaac.kubai@example.co.ke</a> or connect with me on <a href="#">LinkedIn</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Isaac Kubai. All rights reserved.</p>
+    </footer>
+</body>
+</html>
